@@ -238,9 +238,20 @@ footer {
     height: 45px;
   }
 
+  .plans,.needs,.gallery,.open,.footer {
+    margin-top: 120px;
+  }
+
+
 @media (max-width: 768px) {
     .img-box {
         width: 100%;
+    }
+    .card-box-content {
+      padding: 65px 20px 45px;
+    }
+    .card-box-header , .mobile-btn {
+      text-align: center;
     }
 }
 
